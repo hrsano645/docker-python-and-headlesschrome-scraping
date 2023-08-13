@@ -1,5 +1,5 @@
 # pythonイメージ用意
-FROM python:3.11
+FROM --platform=linux/amd64 python:3.11
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1

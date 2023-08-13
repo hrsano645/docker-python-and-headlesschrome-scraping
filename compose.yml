@@ -1,5 +1,5 @@
 # memo:サービスとして起動しておく、ぐらいの設定です
-version: 3
+version: "3"
 services:
   scraping:
     container_name: docker-py-scraping
